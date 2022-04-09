@@ -14,11 +14,11 @@ const Reward = () => {
             </div>
 
             <div className="text-white">
-                <h3 className="text-3xl text-center uppercase align-middle">Gain Fungible tokens and points</h3>
+                <h3 className="text-2xl text-center uppercase align-middle">Gain Fungible tokens and points</h3>
                 <ul className="py-1 my-2 text-lg ">
+                    <li className='flex w-full my-4'><FcIdea className='h-5 mt-1' /> <span className='ml-3'></span>Challenge different players across the universe</li>
+                    <li className='flex w-full my-4'><FcIdea className='h-5 mt-1' /> <span className='ml-3'>win, trade, and upgrade characters</span></li>
                     <li className='flex w-full my-4'> <FcIdea className='h-5 mt-1' /> <span className='ml-3'>Earn Elixirs and heal</span></li>
-                    <li className='flex w-full my-4'><FcIdea className='h-5 mt-1' /> <span className='ml-3'>win characters</span></li>
-                    <li className='flex w-full my-4'><FcIdea className='h-5 mt-1' /> <span className='ml-3'>trade Characters</span></li>
                 </ul>
             </div>
         </div>

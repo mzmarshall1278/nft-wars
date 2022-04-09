@@ -25,7 +25,7 @@ const Suggestions = ({id, club}) => {
             </div>
             <div className="flex justify-start space-x-3 py-8 w-5/6 mx-auto">
                 {suggestions.map(item => {
-                return (<div key={item.key} className="w-1/3 mx-3">
+                return (<div key={item.id} className="w-1/3 mx-3">
                     <NFT card={item}/>
                 </div>)
                 })}
