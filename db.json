@@ -1,20 +1,63 @@
 {
     "nfts": [
-      { "id": 1, "title": "Bethany Claw", "author": "typicode" , "club": "Vampires Club", "price": 9 ,"description": "If your blood didn't make me choke, then you death was meaningless","url": "/images/vampire.png", "tags": ["vampire", "blood", "betheny"], "type": "image" },
-      { "id": 2, "title": "Gandalf the Grey ", "author": "typicode" , "club": "Wizards Club", "price": 13 ,"description": "You shall not pass.","url": "/images/gandalf.png", "tags": ["wizards", "magic", "gandalf"], "type": "audio" },
-      { "id": 3, "title": "Zeus Olympus", "author": "typicode" , "club": "Grecian Club", "price": 16 ,"description": "Any mortal who sets foot on mount Olympus will feel the wrath of my thunder","url": "/images/zeus.jpg", "tags": ["vampire", "blood", "zeus"] , "type": "video"},
-      { "id": 4, "title": "Medusa Cobra", "author": "typicode" , "club": "Grecian Club", "price": 12 ,"description": "humans Look better as rocks, if you evade that then you shall feel my poisonous hair","url": "/images/medusa.jpg", "tags": ["vampire", "blood", "snakes"], "type": "image" },
-      { "id": 5, "title": "helena Sparrow", "author": "typicode" , "club": "Pirates Club", "price": 7 ,"description": "The ocean is always flat. If you're not drunk you'll never know","url": "/images/pirate1.jpg", "tags": ["pirate", "beer", "kill"], "type": "image" },
-      { "id": 6, "title": "Legolas GreenLeaf", "author": "typicode" , "club": "Elves Club", "price": 9 ,"description": "My cutleries are arrows. If yours don't miss the mouth mine don't miss thier target","url": "/images/elves.jpg", "tags": ["Elf", "Arrow", "ears"] , "type": "image"},
-      { "id": 7, "title": "Rosemary", "author": "typicode" , "club": "Vampires Club", "price": 11 ,"description": "You're just too slow. You dont stand a chance","url": "/images/vampire2.jpg", "tags": ["vampire", "blood", "rose"] , "type": "video"},
-      { "id": 8, "title": "Lord Voldermort", "author": "typicode" , "club": "Wizards Club", "price": 15 ,"description": "Avadacadabra!!!","url": "/images/voldermort.jpeg", "tags": ["Wizard", "kill", "kill"], "type": "image" },
-      { "id": 9, "title": "Hades Underworld", "author": "typicode" , "club": "Grecian Club", "price": 15 ,"description": "We'll meet in the underworld!","url": "/images/hades3.png", "tags": ["Hades", "Greese", "Fire"], "type": "image" },
-      { "id": 10, "title": "Thrandruil", "author": "typicode" , "club": "Elves Club", "price": 10 ,"description": "I will severe your head from your miserable body","url": "/images/elf2.png", "tags": ["elves", "arrows", "women"], "type": "audio" },
-      { "id": 11, "title": "Melissa Hale", "author": "typicode" , "club": "Pirates Club", "price": 9 ,"description": "Just call me captain","url": "/images/pirate2.jpg", "tags": ["elves", "arrows", "women"], "type": "audio" }
+      { "id": 1, "title": "Tristan Claw", "author": "typicode" , "club": "Vampires Club", "price": 9 ,"description": "If your blood didn't make me choke, then you death was meaningless","url": "/images/tristan.jpg", "tags": ["vampire", "blood", "tris"], "type": "image" , "clubId": "1"},
+
+      { "id": 2, "title": "Gandalf the Grey ", "author": "typicode" , "club": "Magic Club", "price": 13 ,"description": "You shall not pass.","url": "/images/gandalf.png", "tags": ["wizards", "magic", "gandalf"], "type": "audio" , "clubId": "2"},
+        
+      { "id": 3, "title": "Zeus Olympus", "author": "typicode" , "club": "Grecian Club", "price": 16 ,"description": "Any mortal who sets foot on mount Olympus will feel the wrath of my thunder","url": "/images/zeus.jpg", "tags": ["vampire", "blood", "zeus"] , "type": "video", "clubId": "3"},
+
+      { "id": 12, "title": "Arya Stark", "author": "typicode" , "club": "Warriors Club", "price": 12 ,"description": "I have seen death. It has many faces. I look forward to seeing this one","url": "/images/arya.jpg", "tags": ["Warrior", "needle", "women"], "type": "image" , "clubId": "6"},
+
+      { "id": 15, "title": "Night King", "author": "typicode" , "club": "Monsters Club", "price": 18 ,"description": "silence" ,"url": "/images/night.jpg", "tags": ["monster", "death", "ice"], "type": "audio" , "clubId": "7"} ,
+
+      { "id": 4, "title": "Medusa Cobra", "author": "typicode" , "club": "Grecian Club", "price": 12 ,"description": "humans Look better as rocks, if you evade that then you shall feel my poisonous hair","url": "/images/medusa.jpg", "tags": ["vampire", "blood", "snakes"], "type": "image" , "clubId": "3"},
+
+      { "id": 5, "title": "helena Sparrow", "author": "typicode" , "club": "Pirates Club", "price": 7 ,"description": "The ocean is always flat. If you're not drunk you'll never know","url": "/images/pirate1.jpg", "tags": ["pirate", "beer", "kill"], "type": "image" , "clubId": "4"},
+
+      { "id": 6, "title": "Legolas GreenLeaf", "author": "typicode" , "club": "Elves Club", "price": 9 ,"description": "My cutleries are arrows. If yours don't miss the mouth mine don't miss thier target","url": "/images/elves.jpg", "tags": ["Elf", "Arrow", "ears"] , "type": "image", "clubId": "5"},
+
+      { "id": 7, "title": "Rosemary", "author": "typicode" , "club": "Vampires Club", "price": 11 ,"description": "You're just too slow. You dont stand a chance","url": "/images/vampire2.jpg", "tags": ["vampire", "blood", "rose"] , "type": "video", "clubId": "1"},
+
+      { "id": 8, "title": "Lord Voldermort", "author": "typicode" , "club": "Magic Club", "price": 15 ,"description": "Avadacadabra!!!","url": "/images/voldermort.jpeg", "tags": ["Wizard", "kill", "kill"], "type": "image" , "clubId": "2"},
+
+      { "id": 9, "title": "Hades Underworld", "author": "typicode" , "club": "Grecian Club", "price": 15 ,"description": "We'll meet in the underworld!","url": "/images/hades3.png", "tags": ["Hades", "Greese", "Fire"], "type": "image" , "clubId": "3"},
+
+      { "id": 10, "title": "Lara Silk", "author": "typicode" , "club": "Elves Club", "price": 10 ,"description": "I will severe your head from your miserable body","url": "/images/lara.jpg", "tags": ["elves", "arrows", "women"], "type": "audio" , "clubId": "5"},
+
+      { "id": 11, "title": "Melissa Hale", "author": "typicode" , "club": "Pirates Club", "price": 9 ,"description": "Just call me captain","url": "/images/pirate2.jpg", "tags": ["elves", "arrows", "women"], "type": "audio" , "clubId": "4"},
+
+
+      { "id": 13, "title": "Witcher", "author": "typicode" , "club": "Warriors Club", "price": 11 ,"description": "DOn't call me Human","url": "/images/witcher.jpg", "tags": ["Warrior", "sword", "women"], "type": "video" , "clubId": "6"},
+
+      { "id": 14, "title": "Nun", "author": "typicode" , "club": "Monsters Club", "price": 8 ,"description": "Let's say your funeral prayer","url": "/images/nun.jpg", "tags": ["Monster", "ugly", "women"], "type": "image" , "clubId": "7"}
+
       
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 }
     ],
-    "profile": { "name": "typicode" }
+    "clubs": [
+      {
+         "id": "1", "title": "Vampires Club",  "subtitle": "The Blood Empire", "url": "/images/grave.jpg" 
+      },
+      {
+         "id": "2", "title": "Magic Club",  "subtitle": "There's magic  within us all", "url": "/images/hogwarts.jpg"
+      },
+      { 
+        "id": "3", "title": "Grecian Club", "subtitle": "Perks of Immortality", "url": "/images/greece.jpg"
+      },
+      { 
+        "id": "4", "title": "Pirates Club",  "subtitle": "Lets go get them treasures.", "url": "/images/sea.jpg"
+      },
+      {
+        "id": "5", "title": "Elves Club", "subtitle": "We have fine Women", "url": "/images/shire.png"
+      },
+      {
+        "id": "6", "title": "Warriors Club", "subtitle": "Fear is  a choice", "url": "/images/battle.jpg"
+      },
+      {
+        "id": "7", "title": "Monsters Club", "subtitle": "Fear us if you dare", "url": "/images/monster.jpg"
+      }
+    ]
   }
+  
