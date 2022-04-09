@@ -13,7 +13,9 @@ module.exports = {
         'vampire': '#ff0808',
         'wizard': 'rgb(28,77,26)',
         'elf': '#ae9400',
-        'pirate': '#590051'
+        'pirate': '#e206e2',
+        'warrior': '#000',
+        'monster': '#00ff0a'
       }
     },
   },
