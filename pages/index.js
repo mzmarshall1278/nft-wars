@@ -7,10 +7,13 @@ import Reward from '../components/reward'
 
 export default function Home() {
   return (
-    <div className='min-h-screen overflow-x-hidden gradient'
+    <div className='min-h-screen overflow-x-hidden'
     // style={{backgroundImage: "url(images/bg.jpg)"}}
     >
-      <Hero/>
+      <Hero 
+        cover="images/magic.jpg"
+        title="The Biggest NFT Cluster in the universe" 
+        subtitle="find your superpower"/>
       <div className='text-green-400 py-5 pt-12 mx-auto w-full '>
         <Promo/>
         <div className='w-1/3 mx-auto'>
