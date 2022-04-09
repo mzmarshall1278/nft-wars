@@ -13,8 +13,8 @@ const SingleNft = ({data}) => {
                 {type === 'image' ? 
                     <Image src={url} height={500} width={500} objectFit="cover" className="" /> :
 
-                <video id="video" className="w-full h-full" poster={url} controls controlsList="nodownload" loop muted>
-                    <source src='/sound.wma' />
+                <video id="video" className="w-full h-full outline-none" poster={url} controls controlsList="nodownload" loop muted>
+                    <source src='/audio.mp3' />
                 </video>
                 }
                 </div>
@@ -25,7 +25,7 @@ const SingleNft = ({data}) => {
                         <li className="text-xl my-8 font-semibold">{description}</li>
                             <Link href={`/clubs/${clubId}`}>
                                 <li className={`text-xl my-8 font-semibold w-fit cursor-pointer rounded-md py-2 px-2 flex ${
-                                    club ==='Wizards Club'? ' bg-wizard':
+                                    club ==='Magic Club'? ' bg-wizard':
                                     club ==='Vampires Club'? ' bg-vampire':
                                     club === 'Grecian Club'? ' bg-greece':
                                     club === 'Pirates Club'? ' bg-pirate':
