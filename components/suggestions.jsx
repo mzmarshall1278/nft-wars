@@ -11,7 +11,7 @@ const Suggestions = ({id, club}) => {
             setSuggestions(sugs)
         }
         fetchData()
-    }, [])
+    }, [id])
 
     return ( 
         <>
@@ -23,7 +23,7 @@ const Suggestions = ({id, club}) => {
                     <div className="w-2/3 ml-auto border-b-8 my-2 rounded-l-full"></div>
                 </div> */}
             </div>
-            <div className="flex justify-start space-x-3 py-8 w-5/6 mx-auto">
+            <div className="flex justify-start space-x-3  py-8 w-2/3 mx-auto">
                 {suggestions.map(item => {
                 return (<div key={item.id} className="w-1/3 mx-3">
                     <NFT card={item}/>
