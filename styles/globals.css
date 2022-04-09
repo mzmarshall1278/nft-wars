@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+.gradient{
+  background-color:#0f0e13;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(225,39%,30%,1) 0, transparent 50%),
+    radial-gradient(at 50% 500%, hsla(225,39%,30%,1) 0, transparent 30%),
+    radial-gradient(at 0% 100%, hsla(225,39%,30%,1) 0, transparent 50%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.glass {
+  background: rgba(22, 32, 65, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
