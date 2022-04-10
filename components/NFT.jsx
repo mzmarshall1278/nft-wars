@@ -26,7 +26,9 @@ const NFT = ({card}) => {
                                 club ==='Magic Club'? 'text-wizard':
                                 club ==='Vampires Club'? 'text-vampire':
                                 club === 'Grecian Club'? 'text-greece':
-                                club === 'Pirates Club'? 'text-pirate': 'text-elf'
+                                club === 'Pirates Club'? 'text-pirate': 
+                                club === 'Elves Club'? 'text-elf': 
+                                club === 'Warriors Club'? 'text-white': 'text-monster'
                             }
                             `}>{title}</h1>
                             <h1 className='my-2'>{price} Near</h1>

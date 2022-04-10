@@ -1,3 +1,4 @@
+import Advert from "../../components/advert";
 import Hero from "../../components/Hero";
 
 const SingleClub = ({data}) => {
@@ -9,19 +10,22 @@ const SingleClub = ({data}) => {
                 title={title}
                 subtitle={subtitle}
                 name={name}/>
-                {/* <div
-        className=" bg-cover h-96 bg-center relative"
-        style={{backgroundImage: `url('/images/magic.jpg')`}}
-        >
-            {!!name && <h1 className="text-white absolute top-8 text-center w-full text-6xl font-custom">Welcome</h1> }
-            <div className="w-full h-full">
+            <div className="text-center text-white text-3xl my-4">Welcome to the Magic Realm</div>
                 
-                <div className="absolute bottom-2 w-full text-center mb-2 text-white transform hover:scale-110 duration-300">
-                    <div className="text-4xl uppercase">{title}</div>
-                    <div className="tracking-[1em] pt-4">{subtitle}</div>
+            <div className="flex w-5/6 mx-auto font-sans my-8">
+
+                <div className="w-1/2 py-8 text-white text-right pr-24 border-r border-b border-t rounded-lg mx-2 linear-right">
+                    <div className="py-2 my-1">Win a free elixir</div>
+                    <div className="py-2 my-1">3 free power Channeling </div>
+                    <div className="py-2 my-1">Free team reviving</div>
+                </div>
+                <div className="w-1/2 py-8 text-white text-left pl-24 border-l border-t border-b  rounded-lg mx-2 linear-left">
+                    <div className="py-2 my-1">Have access to ancestral Powers</div>
+                    <div className="py-2 my-1">In battles You'll Never stand alone</div>
+                    <div className="py-2 my-1">Fast health healing</div>
                 </div>
             </div>
-        </div> */}
+            <Advert/>
         </div>
         
       );

@@ -38,25 +38,25 @@
     ],
     "clubs": [
       {
-         "id": "1", "title": "Vampires Club",  "subtitle": "The Blood Empire", "url": "/images/grave.jpg" 
+         "id": "1", "title": "Vampires Club",  "subtitle": "The Blood Empire", "url": "/images/grave.jpg", "theme": "bg-[rgba(153,51,51,0.7)]" 
       },
       {
-         "id": "2", "title": "Magic Club",  "subtitle": "There's magic  within us all", "url": "/images/hogwarts.jpg"
+         "id": "2", "title": "Magic Club",  "subtitle": "There's magic  within us all", "url": "/images/hogwarts.jpg", "theme": "bg-[rgba(28,77,26,0.7)]"
       },
       { 
-        "id": "3", "title": "Grecian Club", "subtitle": "Perks of Immortality", "url": "/images/greece.jpg"
+        "id": "3", "title": "Grecian Club", "subtitle": "Perks of Immortality", "url": "/images/greece.jpg", "theme": "bg-[rgba(22,22,22,0.7)]"
       },
       { 
-        "id": "4", "title": "Pirates Club",  "subtitle": "Lets go get them treasures.", "url": "/images/sea.jpg"
+        "id": "4", "title": "Pirates Club",  "subtitle": "Lets go get them treasures.", "url": "/images/sea.jpg", "theme": "bg-[rgba(131,130,39,0.78)]"
       },
       {
-        "id": "5", "title": "Elves Club", "subtitle": "We have fine Women", "url": "/images/shire.png"
+        "id": "5", "title": "Elves Club", "subtitle": "Age is just a number", "url": "/images/shire.png", "theme": "bg-[rgba(81,154,248,0.7)]"
       },
       {
-        "id": "6", "title": "Warriors Club", "subtitle": "Fear is  a choice", "url": "/images/battle.jpg"
+        "id": "6", "title": "Warriors Club", "subtitle": "Fear is  a choice", "url": "/images/battle.jpg", "theme": "bg-[rgba(134,43,146,0.7)]"
       },
       {
-        "id": "7", "title": "Monsters Club", "subtitle": "Fear us if you dare", "url": "/images/monster.jpg"
+        "id": "7", "title": "Monsters Club", "subtitle": "Fear us if you dare", "url": "/images/monster.jpg", "theme": "bg-[rgba(81,154,248,0.7)]"
       }
     ]
   }

@@ -15,7 +15,7 @@ module.exports = {
         'elf': '#ae9400',
         'pirate': '#e206e2',
         'warrior': '#000',
-        'monster': '#00ff0a'
+        'monster': '#00ff0a',
       }
     },
   },
