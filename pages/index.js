@@ -8,7 +8,7 @@ import Reward from '../components/reward'
 export default function Home() {
   return (
     <div className='min-h-screen overflow-x-hidden'
-    // style={{backgroundImage: "url(images/bg.jpg)"}}
+    // style={{backgroundImage: " url(images/bg.jpg)"}}
     >
       <Hero 
         cover="images/magic.jpg"
