@@ -10,7 +10,7 @@ const NavBarItem =  ({title, classProps, link}) => {
 }
 
 const NavBar = () => {
-    const items = [{text: 'Home', link: '/'}, {text: 'Market Places', link: '/marketplace'},{text: 'Clubs', link: '/clubs'}];
+    const items = [{text: 'Home', link: '/'}, {text: 'Market Places', link: '/marketplace'},{text: 'Clubs', link: '/clubs'}, {text: 'Shop', link: '/shop'}];
     const [toggle, setToggle] = useState(false);
     return ( 
         <nav className='w-full mx-6 flex md:justify-between justify-between items-center p-4'>
