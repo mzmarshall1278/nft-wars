@@ -58,6 +58,21 @@
       {
         "id": "7", "title": "Monsters Club", "subtitle": "Fear us if you dare", "url": "/images/monster.jpg", "theme": "bg-[rgba(81,154,248,0.7)]"
       }
+    ],
+    "shop": [
+      { "id": 1, "title": "Simple Elixir", "author": "typicode" , "club": "Health", "price": 17 ,"description": "If your blood didn't make me choke, then you death was meaningless","url": "/images/elixir6.jpg", "tags": ["vampire", "blood", "tris"], "type": "image" , "clubId": "1"},
+
+        { "id": 2, "title": "ELven Sword", "author": "typicode" , "club": "Damage", "price": 34 ,"description": "You shall not pass.","url": "/images/elfsword.jpg", "tags": ["wizards", "magic", "gandalf"], "type": "Image" , "clubId": "2"},
+          
+        { "id": 3, "title": "Underworld Potion", "author": "typicode" , "club": "Poison", "price": 16 ,"description": "Any mortal who sets foot on mount Olympus will feel the wrath of my thunder","url": "/images/elixir4.png", "tags": ["vampire", "blood", "zeus"] , "type": "image", "clubId": "3"},
+  
+        { "id": 12, "title": "Wizard Staff", "author": "typicode" , "club": "Macic", "price": 12 ,"description": "I have seen death. It has many faces. I look forward to seeing this one","url": "/images/staff.jpg", "tags": ["Warrior", "needle", "women"], "type": "image" , "clubId": "6"},
+  
+        { "id": 15, "title": "Enchanted Sword", "author": "typicode" , "club": "Damage", "price": 100 ,"description": "silence" ,"url": "/images/wizardsword.jpg", "tags": ["monster", "death", "ice"], "type": "Image" , "clubId": "7"} ,
+  
+        { "id": 4, "title": "Life Saver", "author": "typicode" , "club": "Health", "price": 90 ,"description": "humans Look better as rocks, if you evade that then you shall feel my poisonous hair","url": "/images/elix.jpg", "tags": ["vampire", "blood", "snakes"], "type": "image" , "clubId": "3"},
+
+        { "id": 4, "title": "Double Daggers", "author": "typicode" , "club": "Damage", "price": 10 ,"description": "humans Look better as rocks, if you evade that then you shall feel my poisonous hair","url": "/images/doubledaggers.png", "tags": ["vampire", "blood", "snakes"], "type": "image" , "clubId": "3"}
     ]
   }
   
