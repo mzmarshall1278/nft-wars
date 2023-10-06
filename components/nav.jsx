@@ -15,7 +15,7 @@ const NavBar = () => {
     return ( 
         <nav className='w-full mx-6 flex md:justify-between justify-between items-center p-4'>
             <div className="md:flex-[0.5] flex-initial items-center text-white font-bold text-4xl">
-                Harmonic Cluster
+                NFT Warz
             </div>
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
                 {items.map((item, index)=> (
